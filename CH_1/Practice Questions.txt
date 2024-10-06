@@ -1,0 +1,23 @@
+1.
+	Operators: *, -, /, +
+	Values: 'hello', -88.8, 5
+
+2.
+	spam is a variable and 'spam' is a string.
+3. 
+	Boolean, string, integer
+4.
+	Expressions have values and operators, their purpose is to evaluate or reduce down to a single value, so expressions can be used anywhere you could also use a value.
+
+5.
+	statements are used for creating variables or displaying values, not evaluated for results like an expression.
+6.
+	bacon still contains 20
+7.
+	both evaluate to 'spamspamspam'
+8.
+	Variable names cannot begin with a number
+9.
+	str() for string values, int() for integer values, and float() for floating point number values
+10.
+	'I have eaten ' + str(99) + ' burritos.'
