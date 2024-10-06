@@ -1,0 +1,28 @@
+1. 
+	They allow you to reuse code without retyping it out every time
+2.
+	code in the function executes when its called and not when its defined
+3.
+	the def statement creates a function
+4. 
+	a function is a reusable piece of code that can be called, and a function call is when you call that function to execute in your code
+5.
+	there is one global scope and as many local scopes as functions you define
+6. 
+	the variables in a local scope of a function are removed when the function call returns
+7.	
+	a return value is the value that a function call produces when it completes its task, and no, return values can not be part of an expression
+8. 
+	the return value would be undefined
+9.	
+	you put the global keyword before the variable
+10.	
+	none is a datatype of its own (NoneType), only none can be none
+11.
+	it imports a module named areallyourpetsnamederic.
+12.
+	you would call it like this: spam.bacon()
+13. 	
+	use the try and except blocks to catch and handle exceptions
+14. 
+	the try clause contains the code you want to run and the except clause contains what you want to execute if it runs into an error code.
