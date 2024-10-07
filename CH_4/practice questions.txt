@@ -1,0 +1,34 @@
+1.
+	[] are used to define lists
+2. 
+	spam[2] = 'hello'
+3.
+	'd'
+4. 
+	'd'
+5.
+	[a, b]
+6. 
+	1
+7.
+	[3.14, 'cat', 11, 'cat', True, 99]
+8.
+	[3.14, 11, 'cat', True]
+9.
+	+ for concatenation, * for replication
+10.
+	append() adds a value to the end of the list, insert() adds a value to a specific index.
+11.
+	del list[index], list.remove(value)
+12.
+	list values have and index as do characters in a string value, both have a length, both can be sliced, both can be compared
+13.
+	lists are mutable (can be altered) and tuples are immutable (cannot be altered), lists are defined with brackets and tuples are defined with parentheses
+14.
+	tuple = (42)
+15.
+	tuple(list) to get a tuple of the list, list(tuple) to get a list of the tuple
+16.
+	variables that "contain" list values dont contain the list value, they contain a reference to the actual list value, so if that changes does the value in the variable.
+17.
+	copy.copy() will create a copy of a list instead of a reference to the OG list but will not do the same for the lists/dictionaries inside a list if it contains them, , copy.deepcopy() will create a copy of the lists inside of a copy list as well
