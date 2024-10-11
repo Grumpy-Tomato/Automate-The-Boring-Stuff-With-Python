@@ -3,13 +3,20 @@ import random
 numberOfStreaks = 0
 
 for experimentNumber in range(10000):
-    # code that creates a list of 100 'heads' or 'tails values.
-    listOfHeadsOrTails = []
+
+    CoinFlip = [] 
     for i in range(100):
-        randomInteger = random.randint(0, 1)
-        if randomInteger == 0:
-            listOfHeadsOrTails.append('heads')
+        CoinFlip.append(random.randint(0,1))
+
+    streak = 1
+    for i in range(1, len(CoinFlip)):
+        if CoinFlip[i] == CoinFlip[i-1]:
+            streak += 1 
         else:
-            listOfHeadsOrTails.append('tails')
-    # code that checks if there is a streak of 6 heads or tails in a row
-    
+            streak = 1
+
+        if streak == 6:
+            numberOfStreaks += 1
+            break
+
+print('Chance of streak: %s%%' % (numberOfStreaks / 100))
