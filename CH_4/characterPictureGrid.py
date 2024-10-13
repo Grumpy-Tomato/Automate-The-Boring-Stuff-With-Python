@@ -10,8 +10,8 @@ grid = [['.', '.', '.', '.', '.', '.'],
 
 x = 0
 y = 0
-for listOfXs in grid:
-    for item in range(7):
+for amountOfLists in grid:
+    for Listitem in range(7):
         if y < len(grid):
             print(grid[y][x], end='')
             y += 1
